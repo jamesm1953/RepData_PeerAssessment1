@@ -167,7 +167,7 @@ mean(stepsByDaySumNew$steps)</code></pre>
 <p>Finally, the average number of steps per interval is broken down by a new variable which indicates whether the related activity occurred on a weekday or on the weekend. There appear to be observable differences in the patterns presented, illustrated by the panel of line plots.</p>
 <ul>
 <li>Weekend activity starts later than on weekdays, perhaps because the subject slept in a bit.</li>
-<li>Weekend activity is more dispersed throughout the day, as opposed to the noticable spike in the early mornings of the weekdays.</li>
+<li>Weekend activity is more dispersed throughout the day, as opposed to the spike in the early mornings of the weekdays.</li>
 </ul>
 <pre class="r"><code># Create new variable indicating weekend/weekday
 activityNew$day &lt;- ifelse(
